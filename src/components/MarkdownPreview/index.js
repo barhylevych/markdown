@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import './style.css'
 import { isString } from '../../utils';
 import { pt } from '../../lib'
