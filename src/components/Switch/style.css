@@ -1,0 +1,26 @@
+.switch {
+  width: 44px;
+  height: 24px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background: var(--border-grey);
+  position: relative;
+  cursor: pointer;
+}
+.switch__ball {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  transition: all 0.3s;
+  top: 2px;
+  left: 2px;
+}
+.on-mode {
+  background: var(--primary-blue);
+}
+.on-mode .switch__ball {
+  left: calc(100% - 20px - 2px);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+.overview__section {
+  margin: 10px var(--base-margin);
+}
+.overview__article {
+  padding-bottom: var(--max-padding);
+}
+.overview__header {
+  font-weight: 400;
+  font-size: 38px;
+  padding-bottom: var(--max-padding);
+  cursor: pointer;
+}
+.overview__header:hover {
+  color: var(--text-color-hover);
+}
+.overview__description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=style.css.map */

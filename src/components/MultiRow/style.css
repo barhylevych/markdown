@@ -1,0 +1,12 @@
+.section__kind {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  column-gap: var(--base-gap);
+}
+.section__kind--fill {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.section__kind--center {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

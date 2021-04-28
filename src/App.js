@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { HeadContent, Footer } from './components'
+import { Route, Redirect, Switch, withRouter } from 'react-router';
+import { Main, Types } from './pages/Main';
+import { routes } from './constants';
+
+const Head = withRouter(HeadContent)
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Head/>
+      <main>
+        <Switch>
+          <Route path={routes.parts} component={Main}/>
+          {Types.map(({ Component, path }) => <Route path={path} component={Component} key={path}/> )}
+          <Redirect to={routes.parts} />
+        </Switch>
+      </main>
+      <Footer/>
+    </>
   );
 }
 

@@ -1,0 +1,27 @@
+.format-block {
+  display: flex;
+}
+.padding-horizontal {
+  padding-left: var(--base-padding);
+  padding-right: var(--base-padding);
+}
+.padding-vertical {
+  padding-top: var(--base-padding);
+  padding-bottom: var(--base-padding);
+}
+.margin-horizontal {
+  margin-left: var(--base-margin);
+  margin-right: var(--base-margin);
+}
+.margin-vertical {
+  margin-top: var(--base-margin);
+  margin-bottom: var(--base-margin);
+}
+.column {
+  flex-direction: column;
+}
+.text {
+  font-size: 16px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */

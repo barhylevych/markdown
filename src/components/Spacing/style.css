@@ -1,0 +1,7 @@
+.spacing {
+  display: grid;
+  width: 100%;
+  grid-auto-flow: column;
+  grid-column-gap: var(--base-padding);
+}
+/*# sourceMappingURL=style.css.map */

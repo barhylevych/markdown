@@ -1,0 +1,15 @@
+export const parts = '/parts'
+export const h1 = '/h1'
+export const boldAndItalic = "/bold_and_italic"
+export const blockquotes = "/blockquotes"
+export const list = "/list"
+export const code = "/code"
+export const fencedCodeBlock = "/fenced_code_block"
+export const horizontalRule = "/horizontal_rule"
+export const link = "/link"
+export const image = "/image"
+export const strikethrough = "/strikethrough"
+export const taskList = "/task_list"
+export const definitionList = "/definition_ist"
+export const footnote = "/footnote"
+export const tables = "/tables"
