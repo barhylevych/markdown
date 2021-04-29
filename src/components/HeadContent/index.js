@@ -18,7 +18,9 @@ export const HeadContent = ({ location: { pathname }, history }) => {
 		<nav className="navigation">
 			<div className="left-side" onClick={onClickScroll}>
 				<img src={ icon } alt="Sorry" className="icon"/>
-				<h1 className="title"> Markdown Formatter </h1>
+				<h1 className="title">
+					Markdown Formatter
+				</h1>
 			</div>
 			<div className="right-side">
 				<h2 className={"right-side__location"}>{locationName}</h2>
