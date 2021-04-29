@@ -7,13 +7,14 @@
   place-content: center;
 
   .left-side, .right-side{
-    padding: 0 var(--base-margin);
+    padding: 0 calc(var(--base-margin) + var(--max-padding));
     height: 100%;
     font-weight: 400;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
   }
   .right-side{
     button, a{
