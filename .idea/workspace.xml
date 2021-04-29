@@ -12,7 +12,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,6 +110,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619622352353" />
+    <state x="741" y="234" key="git4idea.branch.GitSmartOperationDialog" timestamp="1619715729106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="741" y="234" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619715729106" />
     <state x="760" y="210" key="svn.repositoryBrowser" timestamp="1619621296371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
