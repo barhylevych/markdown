@@ -2,7 +2,7 @@
 
 Web page for an example of how markup syntax works.
 
-_Live example you can see here: [Click me](https://barhylevych.github.io/markdown/)_
+_Live example you can see here: [Click me](https://barhylevych.github.io/markdown-formatter/)_
 
 > Each section can be clicked for partial work
 
