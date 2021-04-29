@@ -2,6 +2,10 @@
 
 Web page for an example of how markup syntax works.
 
+_Live example you can see here: [Click me](https://barhylevych.github.io/parts)_
+
+> Each section can be clicked for partial work
+
 ## Available Scripts 
 
 ### `yarn start`
